@@ -3,6 +3,13 @@ import { motion } from "framer-motion";
 function Projects() {
   const projects = [
      {
+      title: "Student Productivity Manager",
+      image: "/projects/project3.jpg",
+      github: "https://github.com/premkumarmehta/student-productivity-manager",
+      live: "https://student-productivity-manager-jet.vercel.app/",
+      desc: "A full-stack MERN productivity web application designed to help students manage tasks, track productivity, organize priorities, and stay focused.",
+    },
+     {
       title: "TargetBCA",
       image: "/projects/project0.jpg",
       github: "https://github.com/premkumarmehta/TargetBCA",
@@ -16,13 +23,7 @@ function Projects() {
       live: "https://premkumarmehta.github.io/netflix-clone/",
       desc: "This is a Netflix Clone, created for educational purposes only. Not affiliated with Netflix, Inc.",
     },
-    {
-      title: "Currency Converter",
-      image: "/projects/project2.jpg",
-      github: "https://github.com/premkumarmehta/currency_converter_nodejs",
-      live: "https://github.com/premkumarmehta/currency_converter_nodejs",
-      desc: "A simple and user-friendly Currency Converter web application built using Node.js, Express, MySQL, and HTML/CSS/JavaScript.",
-    },
+ 
   ];
 
   return (
